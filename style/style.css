@@ -1,0 +1,32 @@
+html {
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#userList {
+  justify-content: center;
+  text-align: center;
+  border: 2px solid white;
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+#container {
+  text-align: center;
+}
+.color {
+  color: lime;
+}
+span {
+  color: white;
+}
+button {
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Mrs Saint Delafield", cursive;
+  font-size: 20px;
+}

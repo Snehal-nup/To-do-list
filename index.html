@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>to-do list</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js"></script>
+    <script src="./src/main.js" type="module"></script>
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="color">Todo<span>List</span></h1>
+      <form action="" name="userInput">
+        <label for="taskInput">Enter your Task</label>
+        <input type="text" name="taskInput" id="taskTnput" required />
+        <button type="submit">Add</button>
+        <button type="reset">Clear</button>
+      </form>
+      <div>
+        <h1>Tasks</h1>
+        <ul id="userList"></ul>
+      </div>
+    </div>
+  </body>
+</html>
